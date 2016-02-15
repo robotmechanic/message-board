@@ -13,9 +13,9 @@
   <% end %>
 
   名前:
-  <%= f.text_field :name %>
+  <%= f.text_field :name, :class => "form-control text" %>
   年齢:
-  <%= f.text_field :age %>
+  <%= f.text_field :age, :class => "form-control text"  %>
 <br>
   内容:
    <%= f.text_area :body, :class => "form-control message_textarea", :placeholder => "メッセージを記入してください。" %>       
